@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-public class JsonbLocalDateAdapter implements JsonbAdapter<LocalDate, String> {
+public class LocalDateAdapter implements JsonbAdapter<LocalDate, String> {
 
     @Override
     public String adaptToJson(final LocalDate date) throws Exception {

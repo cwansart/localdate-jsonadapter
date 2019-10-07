@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class Todo {
 
     @NotNull
-    @JsonbTypeAdapter(JsonbLocalDateAdapter.class)
+    @JsonbTypeAdapter(LocalDateAdapter.class)
     private LocalDate dueDate;
 
     public Todo() {
